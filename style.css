@@ -220,20 +220,21 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
- width: 100%%;
-	height: 100vh;
-	background: #e55d87;
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+  text-align: center;
+ width: 100%;
+	height: 300px;
+	background: #067ab4;
+	/*background: -moz-linear-gradient(-45deg, #e55d87 0%, #067ab4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #067ab4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #067ab4 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#067ab4', GradientType=1 );*/
 }
 .title {
 	-webkit-align-self: center;
 	-ms-flex-item-align: center;
 	align-self: center;
-	padding: 2rem;
-	max-width: 960px;
+  padding-top: 50px;
+	width: 100%;
 	text-align: center;
 }
 .title .smallsep {
@@ -245,7 +246,8 @@ header {
 	margin-bottom: 30px;
 }
 .title h1 {
-	font-size: 80px;
+  text-align: center;
+	font-size: 50px;
 	font-weight: 300;
 	text-transform: uppercase;
 	line-height: 0.85;
@@ -602,7 +604,7 @@ input[type="submit"] {
 	box-sizing: border-box;
 }
 input[type="submit"]:hover {
-	background: #e55d87;
+	background: #5a5a5a;
 	text-decoration: none;
 }
 /* Footer Section
